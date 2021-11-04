@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    flex-direction: column;
+    background-color: #2B3E66;
+}
+.title{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 36px;
+    color: #E5E7EB;
+}
+.description{
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 24px;
+    color: #E5E7EB;
+}
+.image{
+    object-fit: cover;
+}
+.content{
+    display: flex;
+    width: 100%;
+    padding: 10px 20px 20px 20px;
+    flex-direction: column;
+}

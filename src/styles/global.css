@@ -1,0 +1,20 @@
+:root{
+    --primary:#364D7B
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body, #__next {
+    height: 100%;
+    background: #fff;
+    color: #000;
+  }
+  
+  body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+  }
